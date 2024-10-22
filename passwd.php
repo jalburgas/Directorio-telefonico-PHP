@@ -1,8 +1,8 @@
 <?php
 
-error_reporting(E_ALL);
- ini_set("display_errors", 1);
- echo($_POST);
+/*******************************************************/
+//VALIDACION DEL USUARIO Y CLAVE CONTRA LA TABLA USUARIO J.A
+/*******************************************************/
 include_once ("inc.lib.conexion.php");
 $cnxODBC = establecerconexionODBC();
 //session_start();
@@ -46,7 +46,7 @@ function password( $usuario, $clave) {
                         );
       } // FIN DEL WHILE
     } else { // error
-      $MSG_ERROR['CONTENIDO']  .= '<br><font color="#FF0000"><b>'.msgerror_odbc($cnxODBC).'Seleccione Tipo de Nomina o Fecha "Es probable que falte algun Dato"'.'</b></font>';
+      $MSG_ERROR['CONTENIDO']  .= '<br><font color="#FF0000"><b>'.msgerror_odbc($cnxODBC).'"Es probable que falte algun Dato"'.'</b></font>';
       include("../inc.error.msg.php");
        exit();
     }  //Fin del if-else
