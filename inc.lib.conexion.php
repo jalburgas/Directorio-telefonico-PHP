@@ -1,4 +1,7 @@
 <?php
+/**************************************************
+conexion a base de datis sql ODBC UNIX J.A
+***************************************************/
 define("ODBC_DSN", "DIRECTORIO");
 //define("ODBC_DSN"       , "PRUEBANOMINA");
 define("ODBC_CLAVE", "dirtelef");
