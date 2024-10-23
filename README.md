@@ -11,4 +11,6 @@ Librerrias:
 -Datatables
 
 -bootstrap
+![Captura de pantalla 2024-10-22 202000](https://github.com/user-attachments/assets/bd6bd972-d883-4361-928f-a797b9c8fea2)
+
 
