@@ -22,10 +22,7 @@ $extension=$_GET["extension"];
         $extension = $row['Extension'];
         $dependencia = $row['Dependencia'];
         $cargo = $row['Cargo'];
-        $nombre = $row['Nombre'];
-       
-        
-  
+        $nombre = $row['Nombre'];  
  }
  //print_r($_GET);
  //print_r($_POST);
