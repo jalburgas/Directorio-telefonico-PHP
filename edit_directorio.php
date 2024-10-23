@@ -36,7 +36,9 @@ $extension=$_GET["extension"];
   	$cargo = $_POST['Cargo'];
     $nombre = $_POST['Nombre'];
     // $claveencrip = hash('sha1', $clave);
-  
+ //*******************************************************************
+//CONSULTA QUE ACTUALIZA LI REGISTROS CODIGO DE EXTENSION SELECCIONADO
+//*******************************************************************
   	$query  = "UPDATE directorio_telefonico SET Extension='$extension', Dependencia='$dependencia', Cargo= '$cargo', Nombre= '$nombre' WHERE Extension='$extension'";
   	//echo $query; exit();
   	$stmt = odbc_exec($cnxODBC, $query );
