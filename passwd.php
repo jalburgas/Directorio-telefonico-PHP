@@ -1,5 +1,4 @@
 <?php
-
 /*******************************************************/
 //VALIDACION DEL USUARIO Y CLAVE CONTRA LA TABLA USUARIO J.A
 /*******************************************************/
@@ -39,10 +38,7 @@ function password( $usuario, $clave) {
                           
                                          'CLAVE'     => odbc_result($consulta,"clave"),
                                          'INSTITUCION'     => odbc_result($consulta,"institucion"),  
-                                         'SEDE'     => odbc_result($consulta,"sede")  
-
-
-                          
+                                         'SEDE'     => odbc_result($consulta,"sede")                            
                         );
       } // FIN DEL WHILE
     } else { // error
@@ -63,32 +59,21 @@ $_SESSION['SEDE']=$auth[0]['SEDE'];
 //$i=0;
 //foreach($auth as $matriz) { 
 //
-
 if ((trim($auth[0]['USUARIO']) == trim($usuario)) && (trim($auth[0]['CLAVE']) == trim($clave) )){
     echo 'Ingreso';
     header("location:inc.directorio.php?USUARIO=".$usuario);
  //  $_SESSION['usuario'] = $usuario;
-
     }else{
-     
-
-     header("location:inc.login.php"); 
-   
+     header("location:inc.login.php");    
      echo 'Salida del sistema';
-
-    //exit();
-
-  
+    //exit();  
    } 
    if($usuario=="" && $clave==""){
-   header("location:inc.login.php"); 
-   
+   header("location:inc.login.php");    
      echo 'Salida del sistema';
    }
 
 //$i++;}
-
-
 ?>
 
 
