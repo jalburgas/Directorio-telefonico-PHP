@@ -1,6 +1,7 @@
 <?php
-
-
+//*******************************************************************
+//Registro en la tabla directorio telefonico J.A
+//**********************************************************************
 include_once ("inc.lib.conexion.php");
 
 $cnxODBC = establecerconexionODBC(); // conexion a la BD
