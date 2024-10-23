@@ -10,9 +10,9 @@ if (!isset($_GET["extension"])) {
 }
 
 $extension=$_GET["extension"];
-
-
-
+//*******************************************************************
+//CONSULTA QUE TRAES LOS DATOS SELECCIOBADOS PARA SER EDITADOS
+//*******************************************************************
 	$sql = sprintf("SELECT *  FROM directorio_telefonico WHERE Extension='%s'",trim($extension));
     $stmt =  odbc_exec($cnxODBC, $sql );
   
