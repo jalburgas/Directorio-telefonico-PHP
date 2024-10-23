@@ -100,24 +100,18 @@ $extension=$_GET["extension"];
           <input type="text" name="Nombre" value="<?php echo $nombre; ?>" class="form-control" placeholder="Actualizar Nombre">
           
         </div><br>
-
-				
-
 <center><button class="btn btn-success" name="update" value="update">
 					Actualizar
-				</button></center>
-				
-			</form>
-			
-		</div>
-		
-		
+				</button>
+</center>				
+			</form>			
+		</div>		
 	</div>
 	<center>
 	<button class="btn btn-Dark" name="back" onclick="window.location='inc.directorio.php'"><i class="fas fa-arrow-circle-left"></i>
 					Regresar
 				</button>
-				</center>
+      </center>
 </div>
 </div>
 </div>
