@@ -2,6 +2,7 @@
 <?php
 //*********************************************************
 //Realizado por  juan alburgas  2021 
+//DIRECTORIO TELEFONICO
 //*******************************************************
 session_start();
 ?>
@@ -70,30 +71,17 @@ ORDER BY Dependencia,Cargo
             $stmt = odbc_exec( $cnxODBC, $sql  );
             //echo  $stmt;
             while( $row = odbc_fetch_array( $stmt) ) {
-            
-
-              ?>
-              
-                <tr>
-                     
-                       
+	   ?>
+		    <tr>                      
                        <td ><?php echo $row['Dependencia']?></td>
                        <td ><?php echo $row['Cargo']?></td>
                        <td ><?php echo $row['Nombre']?></td> 
                        <td ><?php echo $row['Extension']?></td>
-                      <td> <img src="imagenes/telefono.jpg" style="width: 3rem;" > </td>
-                           
-
+                       <td> <img src="imagenes/telefono.jpg" style="width: 3rem;" > </td>
                 </tr>
-           <?php }
-            
-            odbc_free_result($stmt);?>
-            
-           </tbody>
-        
-
-            
-        
+           <?php }            
+            odbc_free_result($stmt);?>            
+           </tbody>        
     </table>
 </div>
 
