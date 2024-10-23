@@ -128,21 +128,14 @@ $extension=$_GET["extension"];
 <script type="text/javascript" src="js/popper.min.js" ></script>
 <script type="text/javascript" src="js/bootstrap.bundle.min.js" ></script>
 <script type="text/javascript" src="js/validar.js"></script>
-
-
 <script type="text/javascript" src="DataTables/datatables.min.js"></script>
-
 <script type="text/javascript" src="DataTables/Buttons-1.6.5/js/dataTables.buttons.min.js"></script>
 <script type="text/javascript" src="DataTables/JSZip-2.5.0/jszip.min.js"></script>
 <script type="text/javascript" src="DataTables/pdfmake-0.1.36/pdfmake.min.js"></script>
 <script type="text/javascript" src="DataTables/pdfmake-0.1.36/vfs_fonts.js"></script>
 <script type="text/javascript" src="DataTables/Buttons-1.6.5/js/buttons.html5.min.js"></script>
-
 <script type="text/javascript" src="main.js"></script>
 <script defer src="fontawesome-free-5.15.1-web/js/all.js"></script> 
-
-
-
 <script src="js/vue.js"></script> 
 <script src="js/vue-router.js"></script> 
 <script src="js/config.js"></script>
