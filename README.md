@@ -9,5 +9,6 @@ Importante instalar y configurar ODBC unix y freeTDS.
 Librerrias
 ***********
 -Datatables
+
 -bootstrap
 
