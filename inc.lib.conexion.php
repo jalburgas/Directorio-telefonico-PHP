@@ -3,9 +3,9 @@
 conexion a base de datis sql ODBC UNIX J.A
 ***************************************************/
 define("ODBC_DSN", "DIRECTORIO");
-//define("ODBC_DSN"       , "PRUEBANOMINA");
-define("ODBC_CLAVE", "dirtelef");
-define("ODBC_CONTRASENA","12345");
+//define("ODBC_DSN"       , "");
+define("ODBC_CLAVE", "");
+define("ODBC_CONTRASENA","");
 
 
 /*-------------------------------------------------------------------------------------*/
