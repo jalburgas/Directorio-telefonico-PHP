@@ -2,7 +2,7 @@
 /*******************************************************/
 //VALIDACION DEL USUARIO Y CLAVE CONTRA LA TABLA USUARIO J.A
 /*******************************************************/
-include_once ("inc.lib.conexion.php");
+include_once ("conexion.php");
 $cnxODBC = establecerconexionODBC();
 //session_start();
 
