@@ -4,7 +4,7 @@ JA 22/10/2024 DIRECTORIO TELEFONICO
 ***********************************************************************************************************/
 session_start();
 
-include_once ("inc.lib.conexion.php");
+include_once ("conexion.php");
  
 //print_r($_SESSION);
 //print_r($_POST);
