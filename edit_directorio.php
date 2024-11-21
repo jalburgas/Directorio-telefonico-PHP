@@ -1,6 +1,6 @@
 <?php
 
-include_once ("inc.lib.conexion.php");
+include_once ("conexion.php");
 
 $cnxODBC = establecerconexionODBC(); 
 
